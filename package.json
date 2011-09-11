@@ -2,11 +2,14 @@
   "name": "upnp-client",
   "description": "A Client Library to interface with UPnP compliant devices.",
   "version": "0.0.0",
-  "author": "Nathan Rajlich <nathan@tootallnate.net>, Pierre Buyle <pierre@buyle.org>",
-  "dependencies": {
-    "step": ">= 0.0.3"
-  },
+  "author": "Nathan Rajlich <nathan@tootallnate.net>",
+  "contributors": ["Pierre Buyle <pierre@buyle.org>"],
+  "dependencies": ["node-expat"],
   "keywords": ["UPnP", "devices", "client", "library", ""],
   "main": "./lib/upnp",
-  "engines": { "node": ">= 0.2.0" }
+  "engines": { "node": ">= 0.2.0" },
+  "repositories": [{
+    "type": "git",
+    "path": "git://github.com/TooTallNate/node-upnp-client.git"
+  }]
 }
